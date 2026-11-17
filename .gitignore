@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Machine-specific corporate CA bundle (regenerate per machine, see README)
+certs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Notebook (not committed; kept locally for interactive use)
+*.ipynb
+.ipynb_checkpoints/
+
+# Generated outputs
+output_data/
+
+# OS
+.DS_Store
